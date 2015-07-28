@@ -21,10 +21,6 @@ https://atom.io/
 
 ---
 
-##HTML
-
----
-
 ##HTML Syntax
 
 ![HTML Syntax](../img/tags.png)
@@ -52,8 +48,9 @@ https://atom.io/
 
 --
 
-##Semantic Page Tags
+##Container Tags
 
+```<div>``` ```</div>```
 
 ```<header>``` ```</header>```
 
@@ -91,6 +88,12 @@ https://atom.io/
 
 ```<code>```This is some computer code```</code>```
 
+```<br>```This is a break``` ```
+
+```<strong>```This is some important (often bold) text```</strong>```
+
+```<em>```This is some emphasized (often italic) text```</em>```
+
 --
 
 ##Content Tags
@@ -111,6 +114,14 @@ https://atom.io/
 ###links
 
  ```<a href="Link">```First item```</a>```
+
+---
+
+##Images
+
+```<img src="img/imageName.jpg" alt="something">```
+
+![Eli](../img/eli.jpg)
 
 ---
 

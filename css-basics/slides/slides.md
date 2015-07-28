@@ -19,95 +19,6 @@
 
 ---
 
-##HTML Review
-
-###HTML Page Structure
-
-
-```<!DOCTYPE html>```
-
-```<html>``` ``` ```
-
-```<head>``` ```</head>```
-
-```<body>``` ```</body>```
-
-```</html>```
-
---
-
-##HTML Review
-
-###Heading Elements
-
-```<h1>```Largest Heading```</h1>```
-
-```<h2>``` . . . ```</h2>```
-
-```<h3>``` . . . ```</h3>```
-
-```<h4>``` . . .```</h4>```
-
-```<h5>``` . . . ```</h5>```
-
-```<h6>```Smallest Heading```</h6>```
-
---
-
-##HTML Review
-
-###Text Elements
-
-```<p>```This is a paragraph```</p>```
-
-```<span>```This text is inline```</span>```
-
-```<code>```This is some computer code```</code>```
-
-```<br>```This is a break``` ```
-
-```<strong>```This is some important (often bold) text```</strong>```
-
-```<em>```This is some emphasized (often italic) text```</em>```
-
-```<div>```This is in a container```</div>```
-
---
-
-##HTML Review
-
-###Unordered list
-
-```
-<ul>
-  <li>First item</li>
-  <li>Next item</li>
-</ul>
-```
-
---
-
-##HTML Review
-
-###Links
-
- ```<a href="Link">```First item```</a>```
-
----
-
-![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
-##Cookie Recipe
-
----
-
-##Images
-
-```<img src="img/imageName.jpg" alt="something">```
-
-![Eli](../img/unit_1/eli.jpg)
-
----
-
 ##Image Paths
 
 Three ways to write them
@@ -119,28 +30,12 @@ Three ways to write them
 --
 
 ##Image Paths
-Relative Path
 
-![](../img/folder-structure.png)
-
-*	Inside ```webroot```, a relative path could be used:
-
-####```<img src="images/logo.png">```
-
---
-
-##Image Paths
 Relative Path
 
 ![Parent Folder Structure](../img/folder-structure.png)
 
 ####```<img src="../images/logo.png">```
-
-Note:
-
-* Given this folder structure the same image would be ```<img src="../images/logo.png">``
-*
-Note that ```..``` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
 
 
 --
@@ -151,14 +46,6 @@ Absolute Path
 
 ```<img src="/images/logo.png">```
 
-Note:
-	Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with: ```<img src="/images/logo.png">```
-
-The benefit here is that this same ```src``` path works on any html page, no matter what its location, so the same ```img``` tag can be used on both the ```webroot/index.html``` page and the ```webroot/about/index.html``` page.
-
-The downside is that the path only works if the project is stored to a proper location for serving.
-
-
 --
 
 
@@ -166,58 +53,6 @@ The downside is that the path only works if the project is stored to a proper lo
 Full URL
 
 		<img src="http://www.website.com/images/some_image.png">
-
-Note:
-For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
-
-
----
-
-##Image File Formats
-
-There are three main image file formats:
-
---
-
-##Image File Formats
-
-####.png
-
-*	Can have full levels of transparency
-* High quality
-
-![png transparency](../img/unit_1/trans_png.png)
-
-Note:
-Supports transparency and semi-transparency, great for logos, icons, and repeating background tiles. Almost always preferable to a `gif`, unless semi-transparency is not needed, and the `gif` format is significantly smaller.
-
---
-
-##Image File Formats
-
-
-####.gif
-
-*	Can have basic transparency, typically a `png` is used instead.
-* Can be animated!
-
-![gif transparency](../img/unit_1/trans_gif.gif)
-![gif animated](../img/unit_1/animated.gif)
-
---
-
-##Image File Formats
-
-####.jpeg
-
-* Best file size, can choose quality
-* No transparency
-
-![jpg transparency](../img/unit_1/trans_jpg.jpg)
-
-Note:
-No transparency, can be stored at different compression levels with varying amounts of "lossy-ness", typically the best format for photos. (Try to balance between photo quality and file size.)
-
 
 ---
 
