@@ -115,7 +115,7 @@ https://atom.io/
 
  ```<a href="Link">```First item```</a>```
 
----
+--
 
 ##Images
 
@@ -128,5 +128,3 @@ https://atom.io/
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 ##Cookie Recipe
 [link to recipe](https://www.cookies.com)
-
----
