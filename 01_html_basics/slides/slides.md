@@ -13,7 +13,6 @@
 
 ---
 
-
 ##Atom
 
 ![Sublime](../img/atom.png)
