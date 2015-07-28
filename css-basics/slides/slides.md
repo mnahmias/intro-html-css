@@ -1,6 +1,6 @@
-![GeneralAssemb.ly](../img/icons/FEWD_Logo.png)
+![GeneralAssemb.ly](../img/css.png)
 
-#FEWD - CSS Basics
+CSS Basics
 
 ---
 
@@ -14,7 +14,6 @@
 	*	Fonts
 	*	Linking To Other Pages
 * CSS
-*	Lab Time
 
 ---
 
@@ -52,12 +51,6 @@ Absolute Path
 Full URL
 
 		<img src="http://www.website.com/images/some_image.png">
-
----
-
-
-![GeneralAssemb.ly](../img/icons/code_along.png)
-##About Me
 
 ---
 
@@ -216,18 +209,6 @@ What **value** are we setting that **property** to?
 
 Try writing a new set of styles for another element, like an `h1`.
 
-
---
-
-##CSS Break Down
-
-Why might we want to link to a separate CSS file?
-
-Note:
-
-Discuss as a class
-
-
 ---
 
 ##CSS Colors
@@ -328,12 +309,8 @@ Note that changing the opacity allows whatever colors are "behind" an element to
 
 ---
 
-##CSS Review
-
----
-
-![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
-##Lab Time
+![GeneralAssemb.ly](../img/exercise_icon_md.png)
+##Code Along
 *	Wendy G. Bites - Resume.
 
 ---
