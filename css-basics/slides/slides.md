@@ -7,7 +7,6 @@
 
 ##Agenda
 
-*	HTML Review
 *	Building A Simple Web Page
 	*	Images
 	*	Nav
@@ -64,7 +63,7 @@ Full URL
 
 ##CSS
 
-![](../img/unit_1/css_syntax.png)
+![](../img/css_syntax.png)
 
 ---
 
@@ -235,7 +234,7 @@ Discuss as a class
 
 Colors can be specified in CSS in a variety of ways:
 
-![](../img/unit_1/color.png)
+![](../img/color.png)
 
 Note:
 * keyword
@@ -259,7 +258,7 @@ See [here](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value) for mor
 ##CSS Colors
 ###Hex Codes (RGB)
 
-![Hex Color explanation](../img/unit_1/hex_colors.png)
+![Hex Color explanation](../img/hex_colors.png)
 
 Note:
 "Hex" values are so-called because they use hexadecimal, or base-16, to describe the color values for red, green, and blue. Each of the 3 color values is expressed by two hexadecimal digits, from `00` (no color) to `FF` (full color), and are written in the order red, green, then blue, after an initial `#` sign.
@@ -296,7 +295,7 @@ White-space is allowed *inside* the parentheses, so `rgb(255, 0, 0)` will do jus
 *	This is a value between 0 and 1 which will be used to determine a color's opacity on the page
 
 
-![](../img/unit_1/rgba_color.png)
+![](../img/rgba_color.png)
 
 Note:
 0 is completely transparent, and 1 being solid. 0.5 or .5 is 50% opacity.
