@@ -13,14 +13,10 @@
 
 ---
 
-![Tab completion in finder](../img/tab_completion.png)
-
----
-
 
 ##Atom
 
-![Sublime](../img/stom.png)
+![Sublime](../img/atom.png)
 
 https://atom.io/
 
