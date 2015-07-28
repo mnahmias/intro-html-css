@@ -121,7 +121,6 @@ https://atom.io/
 
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 ##Cookie Recipe
-
-[link to recipe](cookie-recipe.zip)
+[link to recipe](https://www.cookies.com)
 
 ---
