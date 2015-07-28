@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](../../img/html-css.png)
+![GeneralAssemb.ly](../img/html-css.png)
 
 # Welcome to Intro to HTML and CSS!
 
